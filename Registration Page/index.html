@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <link rel="stylesheet" href="style.css" />
+          <title>Sign-up</title>
+     </head>
+     <body>
+          <!-- Registration -->
+          <section class="signup">
+               <div class="container">
+                    <div class="card">
+                         <form
+                              class="form"
+                              action="success-page.html"
+                              method="post"
+                              id="createAccount"
+                         >
+                              <div class="header">
+                                   <h2>Create Account</h2>
+                              </div>
+                              <div class="fname">
+                                   <input
+                                        type="text"
+                                        name="first name"
+                                        id="first-name"
+                                        required
+                                        placeholder="First Name"
+                                        autofocus
+                                   />
+                              </div>
+                              <div class="lname">
+                                   <input
+                                        type="text"
+                                        name="last-name"
+                                        id="last-name"
+                                        required
+                                        placeholder="Last Name"
+                                   />
+                              </div>
+                              <div class="tel">
+                                   <input
+                                        type="tel"
+                                        name="phone"
+                                        id="phone"
+                                        required
+                                        placeholder="Phone Number"
+                                   />
+                              </div>
+                              <div class="email">
+                                   <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        required
+                                        placeholder="Email address"
+                                   />
+                              </div>
+                              <div class="sex" id="gender">
+                                   Gender:
+                                   <label for="male">
+                                        Male
+                                        <input
+                                             type="radio"
+                                             name="gender"
+                                             class="gender"
+                                             id="male"
+                                        />
+                                   </label>
+                                   <label for="female">
+                                        Female
+                                        <input
+                                             type="radio"
+                                             name="gender"
+                                             class="gender"
+                                             id="female"
+                                        />
+                                   </label>
+                              </div>
+                              <p class="dob">Birthday:</p>
+                              <div class="birthday">
+                                   <label for="birthday">
+                                        <input
+                                             type="date"
+                                             name="date"
+                                             id="date"
+                                        />
+                                   </label>
+                              </div>
+                              <div class="color">
+                                   <label for="color" class="fav-color">
+                                        Favorite color:
+                                        <input
+                                             type="color"
+                                             name="fav-color"
+                                             id="fav-color"
+                                        />
+                                   </label>
+                              </div>
+                              <div class="password">
+                                   <input
+                                        type="password"
+                                        name="password"
+                                        id="password"
+                                        placeholder="Password"
+                                   />
+                              </div>
+                              <div class="confirm-password">
+                                   <input
+                                        type="password"
+                                        name="password"
+                                        id="password"
+                                        placeholder="Confirm password"
+                                   />
+                              </div>
+                              <input
+                                   class="button"
+                                   type="submit"
+                                   value="Sign up"
+                              />
+                              <p class="link">
+                                   <a href="login.html" id="linkCreateAccount"
+                                        >Already have an account?Sign in</a
+                                   >
+                              </p>
+                         </form>
+                    </div>
+               </div>
+          </section>
+     </body>
+</html>
